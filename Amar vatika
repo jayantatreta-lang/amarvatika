@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amar Vatika | Premium Himalayan Fruits</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin:0;
+  font-family:'Poppins', sans-serif;
+  background:#fffaf3;
+  color:#222;
+}
+
+header {
+  background:white;
+  padding:15px;
+  text-align:center;
+  box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+header img {
+  height:70px;
+}
+
+.hero {
+  height:90vh;
+  background:url('pear.jpg') center/cover no-repeat;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+  position:relative;
+}
+
+.hero::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.5);
+}
+
+.hero-content {
+  position:relative;
+  z-index:2;
+}
+
+.hero h1 {
+  font-size:40px;
+  margin-bottom:10px;
+}
+
+.hero p {
+  font-size:18px;
+}
+
+.btn {
+  display:inline-block;
+  margin-top:20px;
+  padding:14px 28px;
+  background:linear-gradient(to right,#8b0000,#006400);
+  color:white;
+  text-decoration:none;
+  border-radius:30px;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.btn:hover {
+  transform:scale(1.05);
+}
+
+.section {
+  padding:60px 20px;
+  text-align:center;
+}
+
+.section h2 {
+  font-size:30px;
+  margin-bottom:30px;
+  color:#8b0000;
+}
+
+.products {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:25px;
+}
+
+.card {
+  background:white;
+  border-radius:15px;
+  overflow:hidden;
+  box-shadow:0 6px 15px rgba(0,0,0,0.15);
+  transition:0.3s;
+}
+
+.card:hover {
+  transform:translateY(-8px);
+}
+
+.card img {
+  width:100%;
+  height:200px;
+  object-fit:cover;
+}
+
+.card-content {
+  padding:20px;
+}
+
+footer {
+  background:#111;
+  color:white;
+  text-align:center;
+  padding:25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <img src="logo.png" alt="Amar Vatika">
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Premium Himalayan Apples & Pears</h1>
+    <p>Serving Chandigarh • Delhi NCR • Ludhiana • Amritsar • Jaipur • Lucknow</p>
+    <a href="https://wa.me/917807500091" class="btn">Order on WhatsApp</a>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Our Premium Varieties</h2>
+  <div class="products">
+
+    <div class="card">
+      <img src="pear.jpg">
+      <div class="card-content">
+        <h3>Granny Smith</h3>
+        <p>Perfect for apple pie makers & bakeries.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="pear.jpg">
+      <div class="card-content">
+        <h3>Gala Apple</h3>
+        <p>Sweet, crunchy & family favorite.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="pear.jpg">
+      <div class="card-content">
+        <h3>Red Delicious</h3>
+        <p>Export quality premium red apples.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" style="background:#f4efe6;">
+  <h2>Bulk Orders for Hotels & Bakeries</h2>
+  <p>Special pricing for cafes, apple pie makers & hotel chains.</p>
+  <a href="https://wa.me/917807500091" class="btn">Bulk Inquiry</a>
+</section>
+
+<footer>
+  © 2026 Amar Vatika | Premium • Fresh • Natural
+</footer>
+
+</body>
+</html>
